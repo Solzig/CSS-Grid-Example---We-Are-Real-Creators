@@ -49,3 +49,18 @@
             background-color: darken($gray, 5%)        
             &::after
                 opacity: .32
+
+input, textarea                
+    border: none
+    padding: 15px 20px
+    width: 100%
+    font-family: Arial, Helvetica, sans-serif
+    font-style: 
+    outline: none
+    transition: background-color .25s ease
+    &:focus
+        background-color: #light
+    &:hover
+        background-color: #ffffff    
+    &::placeholder
+        color: lighten($dark, 20%)
